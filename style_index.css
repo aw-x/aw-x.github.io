@@ -5,13 +5,14 @@
 .box-group {
   width: 100%;
   max-width: 320px;
-  border: 5px solid green;
-  border-radius: 10px;
   margin: 5px;
   
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+.box-group:active, .box-group:hover {
+  background-color: #E3E3E3;
 }
 .b-g3 {
   border-color: #299CD5;
@@ -20,27 +21,27 @@
   border-color: #000000;
 }
 .ic_group {
-  width: 100px;
-  height: 100px;
-  min-width: 100px;
-  min-height: 100px;
-  max-width: 100px;
-  max-height: 100px;
-  margin-right: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 7px;
+  border-radius: 100%;
 }
 .text-group {
   flex: 1;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: bold;
 }
 .ig4 {
-  width: 80px;
-  height: 80px;
-  min-width: 80px;
-  min-height: 80px;
-  max-width: 80px;
-  max-height: 80px;
-  padding: 10px;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  max-width: 40px;
+  max-height: 40px;
+  padding: 5px;
+  border-radius: 0;
 }
